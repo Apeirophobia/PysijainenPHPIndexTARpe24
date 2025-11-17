@@ -1,0 +1,71 @@
+body{
+    font-family:  "Segoe Script MT", cursive;
+    color: black;
+    background-color: greenyellow;
+}
+
+ul li{
+    font-family: "Segoe Script MT", cursive;
+    display: inline-block;
+
+}
+
+ul li a{
+    border: solid 2px black;
+    padding: 10px;
+    border-radius: 20px;
+
+    text-decoration: none;
+
+}
+
+ul li a:hover{
+    font-weight: bold;
+    background-color: grey;
+}
+
+header {
+    color: orangered;
+    background-color: limegreen;
+    border-radius: 20px;
+    border: solid 3px black;
+    text-align: center;
+    padding: 10px;
+}
+
+div.flex-container {
+    display: flex;
+    /* Show the flex items horizontally */
+    flex-direction: row;
+}
+
+div.flex-container > div {
+    margin: 10px;
+    border: solid 2pt limegreen;
+    border-radius: 20px;
+    padding: 10px;
+    flex: 1;
+}
+
+/* Use media query and show the flex items vertically if screen width is less than 600px */
+@media screen and (max-width:600px) {
+    div.flex-container {
+        flex-direction: column;
+    }
+}
+
+footer {
+    color: orangered;
+    background-color: limegreen;
+    border-radius: 20px;
+    text-align: center;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    padding: 8px;
+
+    z-index: 1000;
+}
