@@ -15,9 +15,15 @@
         <li>
             <a href="?leht=ajafunktsioonid.php">Ajafunktsioonid</a>
         </li>
+
+        <li>
+            <a href="?leht=gitKasud.php">Git Käsud</a>
+        </li>
+
         <li>
             <a href="?leht=islandSong.php">Island Song</a>
         </li>
+
         <li>
             <a href="https://ervinpusijainen24.thkit.ee" target="_blank">Vana koduleht</a>
         </li>

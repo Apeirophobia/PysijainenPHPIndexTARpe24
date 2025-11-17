@@ -9,3 +9,15 @@ ssh-keygen -o -t rsa -C "ervinpusijainen@gmail.com"
 // id_rsa.pub tuleb avada Notepad'is ja kopeerida oma Github'i reposse:
 // Repo -> Settings -> Deploy Keys, kopeeri id_rsa.pub'i sisu "key" lahtrisse
 // "Title" on key
+
+// lisa jälgimisele ja comitti loomine
+git add . <br>
+git commit -a -m "on loodud phpIndex" <br>
+git status <br>
+
+// remote
+git remote remove origin<br>
+git remote add origin<br>
+git@github.com:Apeirophobia/PysijainenPHPIndexTARpe24.git<br>
+git branch -M main<br>
+git push -u origin main<br>
