@@ -1,5 +1,4 @@
-<h1>Island Song - Ashley Erikkson</h1>
-<br>
+<h2>Island Song - Ashley Erikkson</h2>
 <div>
 
     <br>
