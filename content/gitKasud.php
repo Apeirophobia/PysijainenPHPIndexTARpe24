@@ -33,4 +33,17 @@ echo "<li>git init - uus repo";
         git branch -M main<br>
         git push -u origin main<br>
     </li>
+
+    <li>
+        <pre>
+            Juhul kui:
+            Another git process seems to be running in this repository, e.g.
+            an editor opened by 'git commit'. Please make sure all processes
+            are terminated then try again. If it still fails, a git process
+            may have crashed in this repository earlier:
+            remove the file manually to continue.
+
+            lahendus: leia Repo/.git ja kustuta sealt kõik .LOCK failid
+        </pre>
+    </li>
 </ol>
