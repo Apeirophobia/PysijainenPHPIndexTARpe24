@@ -17,6 +17,14 @@
         </li>
 
         <li>
+            <a href="?leht=tekstfunktsioonid.php">Tekstfunktsioonid</a>
+        </li>
+
+        <li>
+            <a href="?leht=matemaatilised.php">Matemaatilised funktsioonid</a>
+        </li>
+
+        <li>
             <a href="?leht=gitKasud.php">Git Käsud</a>
         </li>
 
