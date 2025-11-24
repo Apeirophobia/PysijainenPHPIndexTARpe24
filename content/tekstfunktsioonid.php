@@ -1,4 +1,14 @@
 <?php
+
+function clearVarsExcept($url, $varname){
+    $url = basename($url);
+    if (str_starts_with($url, "?")){
+        return "?$varname=".$_REQUEST[$varname];
+    }
+
+    return strtok($url, "?")."?$varname=".$_REQUEST[$varname];
+}
+
 echo "<h2>Tekstfunktsioonid</h2>";
 $tekst='Veebirakendus on arvutitarkvara programm';
 echo $tekst;
@@ -85,7 +95,7 @@ seega ma panin selle linnanime keskele sõna pommiauk: ".
 echo "</ol>";
 ?>
 
-<form action="tekstfunktsioonid.php" method="post">
+<form action="<?=clearVarsExcept($_SERVER['REQUEST_URI'], "leht")?>" method="post">
     <label for="linn">Sisesta linna nimi:</label>
     <input type="text" id="linn" name="linn">
     <input type="submit" value="Kontrolli">
