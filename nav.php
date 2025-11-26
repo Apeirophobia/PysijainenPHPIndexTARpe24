@@ -12,16 +12,21 @@
             <a href="?leht=jsVeebikalkulaator.php">JS Veebikalkulaator</a>
         </li>
 
-        <li>
-            <a href="?leht=ajafunktsioonid.php">Ajafunktsioonid</a>
-        </li>
+        <li><a href="">Funktsioonid</a>
+            <ul class="dropdown">
+                <li>
+                    <a href="?leht=ajafunktsioonid.php">Ajafunktsioonid</a>
+                </li>
 
-        <li>
-            <a href="?leht=tekstfunktsioonid.php">Tekstfunktsioonid</a>
-        </li>
+                <li>
+                    <a href="?leht=tekstfunktsioonid.php">Tekstfunktsioonid</a>
+                </li>
 
-        <li>
-            <a href="?leht=matemaatilised.php">Matemaatilised funktsioonid</a>
+                <li>
+                    <a href="?leht=matemaatilised.php">Matemaatilised funktsioonid</a>
+                </li>
+
+            </ul>
         </li>
 
         <li>

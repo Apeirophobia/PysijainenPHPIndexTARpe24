@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/joonis.css">
     <link rel="stylesheet" href="style/kalkulaator.css">
+    <link rel="stylesheet" href="style/rippmenuu.css">
     <script src="js/joonistamineScript.js"></script>
     <script src="js/lipp.js"></script>
     <script src="js/randompiltScript.js"></script>
