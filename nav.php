@@ -25,6 +25,10 @@
         </li>
 
         <li>
+            <a href="?leht=galerii.php">Galerii</a>
+        </li>
+
+        <li>
             <a href="?leht=gitKasud.php">Git Käsud</a>
         </li>
 
